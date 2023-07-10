@@ -10,6 +10,17 @@
     align-items: center;
 }
 
+.item {
+    margin: 197px 240px 147px ;
+}
+
+.img {
+    width: 635px;
+    height: 800px;
+    margin-top: 50px;
+    margin-right: 240px;
+}
+
 .h-title {
     color: #272727;
     width: 708px;
