@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head-container {
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+}
