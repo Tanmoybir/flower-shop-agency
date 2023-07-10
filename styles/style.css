@@ -6,4 +6,32 @@
 .head-container {
     background: rgba(229, 84, 115, 0.10);
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h-title {
+    color: #272727;
+    width: 708px;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.h-description {
+    color: rgba(39, 39, 39, 0.60);
+    width: 634px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+}
+
+.btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    padding: 20px 43px;
 }
