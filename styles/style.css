@@ -34,6 +34,7 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 30px; 
+    margin-top: 50px;
 }
 
 .btn {
@@ -45,4 +46,65 @@
     background: #E55473;
     border: none;
     padding: 20px 43px;
+    margin-top: 5px;
+}
+/* main-section */
+.featured-title {
+text-align: center;
+color: #272727;
+font-size: 40px;
+font-weight: 800;
+margin-top: 178px;
+}
+
+.featured-description {
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    align-items: center;
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px 663px 48px;
+}
+
+.main-div1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+}
+
+.img-pink {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.main-div1-item1 >h3 {
+    text-align: center;
+}
+
+.img-red {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgb(219, 88, 88);  
+}
+.main-div1-item2 >h3 {
+    text-align: center;
+}
+
+.img-yellow {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgb(223, 223, 114);
+}
+
+.main-div1-item3 >h3 {
+    text-align: center;
 }
