@@ -50,22 +50,34 @@
 }
 /* End of header-section */
 /*2nd part:(Featured) main-section */
+.featured-container {
+   margin: 128px 240px;
+}
+.title-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
 .featured-title {
 text-align: center;
 color: #272727;
 font-size: 40px;
 font-weight: 800;
-margin-top: 178px;
+
 }
 
 .featured-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
    text-align: center;
     width: 594px;
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    margin: 24px 663px 48px;
+   margin-bottom: 48px;
 }
 
 .featured-div {
@@ -73,8 +85,7 @@ margin-top: 178px;
     justify-content: space-around;
     align-items: center;
     gap: 24px;
-    margin-left: 240px;
-    margin-right: 240px;
+   
 }
 
 .img-pink {
@@ -102,12 +113,18 @@ h3 {
     text-align: center;/* All h3 tag makes text-align:center */
 }
 /* 3rd part:(Icon) main section */
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 128px 200px; 
+}
 .icon {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    text-align: center;
-    margin: 128px 200px;
+    text-align: center; 
     width: 1440px;
     height: 320px;
     border-radius: 8px;
@@ -162,6 +179,7 @@ span {
     padding-right: 430px;
 }
 /*5th part:(Instagram) main section */
+
 .instagrm-title {
     text-align: center;
     color: #272727;
@@ -189,6 +207,10 @@ span {
 
 /* 6th part(Latest Deals)main section */
 .deal-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     background-image: url("../Flower\ Asset/Rectangle 9.png");
     background-repeat: no-repeat;
     background-position: center;
