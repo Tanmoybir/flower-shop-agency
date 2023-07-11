@@ -210,16 +210,73 @@ span {
     border-radius: 8px;
     margin: 128px 200px;
     text-align: center;
-    padding: 122px;
+   
+}
+
+.deal-title {
+    padding-top: 122px;
 }
 .deals-form {
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    gap: 16px;
+    padding: 48px;
+}
+
+.email {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    padding-left: 22px;
+    margin-left: 287px;
+}
+
+.sub-btn {
+    width: 150px;
+    height: 64px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    padding:19px 31px;
+    margin-right: 287px;
 }
 /*  */
 
 .footer {
     background: #111010;
+}
+
+.flower {
+    text-align: center;
+    padding-top: 128px;
+}
+
+.footer-title {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+#shop {
+    color: #FFF;
+}
+
+.footer-description {    
+width: 625px;
+color: rgba(255, 255, 255, 0.90);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin: 24px 648px;
+}
+
+.footer-end {
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+padding-bottom: 128px;
 }
