@@ -1,8 +1,9 @@
+/*  universal-section */
 * {
     margin: 0;
     padding: 0;
 }
-
+/* 1st part(Shop Now) Header-section */
 .head-container {
     background: rgba(229, 84, 115, 0.10);
     display: flex;
@@ -41,14 +42,14 @@
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
-    line-height: normal;
     border-radius: 8px;
     background: #E55473;
     border: none;
     padding: 20px 43px;
     margin-top: 5px;
 }
-/* main-section */
+/* End of header-section */
+/*2nd part:(Featured) main-section */
 .featured-title {
 text-align: center;
 color: #272727;
@@ -67,7 +68,7 @@ margin-top: 178px;
     margin: 24px 663px 48px;
 }
 
-.main-div1 {
+.featured-div {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -83,18 +84,11 @@ margin-top: 178px;
     background: rgba(167, 33, 98, 0.15);
 }
 
-.main-div1-item1 >h3 {
-    text-align: center;
-}
-
 .img-red {
     width: 464px;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
     background: rgb(219, 88, 88);  
-}
-.main-div1-item2 >h3 {
-    text-align: center;
 }
 
 .img-yellow {
@@ -104,15 +98,11 @@ margin-top: 178px;
     background: rgb(223, 223, 114);
 }
 
-.main-div1-item3 >h3 {
-   
-}
-
 h3 {
-    text-align: center;
+    text-align: center;/* All h3 tag makes text-align:center */
 }
-/*  */
-.main-icon {
+/* 3rd part:(Icon) main section */
+.icon {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -123,7 +113,7 @@ h3 {
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
 }
-/*  */
+/* 4th part:(Sale Up) main section */
 .hot-deal {
     display: flex;
     justify-content: space-around;
@@ -165,15 +155,13 @@ span {
    margin-left: 200px;
 }
 
-
-
 .sale-img { 
     width: 318px;
     height: 420px;
     padding: 100px;
     padding-right: 430px;
 }
-/* instagram */
+/*5th part:(Instagram) main section */
 .instagrm-title {
     text-align: center;
     color: #272727;
@@ -199,7 +187,7 @@ span {
     padding: 48px 200px;
 }
 
-/*  */
+/* 6th part(Latest Deals)main section */
 .deal-container {
     background-image: url("../Flower\ Asset/Rectangle 9.png");
     background-repeat: no-repeat;
@@ -244,13 +232,12 @@ span {
     padding:19px 31px;
     margin-right: 287px;
 }
-/*  */
+/*7th part: (About Us)  main section */
 .about-us {
     background-image: url("../Flower\ Asset/pink-flower.jpg.jpg"),linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    
+    background-size: cover; 
     background-blend-mode: overlay;
     width: 1440px;
     height: 449px;
@@ -269,23 +256,23 @@ span {
 }
 
 .about-us-description {
-    text-align: center; 
-    
-    color: rgba(39, 39, 39, 0.60);
+    text-align: center;  
+    color: rgba(39, 39, 39, 0.80);
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     padding: 10px 200px;
 }
 
-.author-containner {
+.author-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .about-us-img {
-    margin-bottom: 55px;
+    padding-left: 50px;
+    padding-bottom: 10px;
 }
 
 .author {
@@ -302,7 +289,7 @@ span {
     padding:19px 31px;
     margin-right: 287px;
 }
-/*  */
+/* 8th part:(Flower Shop)Footer section */
 
 .footer {
     background: #111010;
@@ -320,7 +307,7 @@ span {
 }
 
 #shop {
-    color: #FFF;
+    color: #FFF;/* <span>shop</span>  */
 }
 
 .footer-description {    
@@ -339,3 +326,4 @@ font-size: 16px;
 font-weight: 400;
 padding-bottom: 128px;
 }
+/* completed css  */
