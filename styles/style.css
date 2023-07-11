@@ -198,3 +198,28 @@ span {
     gap: 24px;
     padding: 48px 200px;
 }
+
+/*  */
+.deal-container {
+    background-image: url("../Flower\ Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1440px;
+    height: 449px;
+    border-radius: 8px;
+    margin: 128px 200px;
+    text-align: center;
+    padding: 122px;
+}
+.deals-form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+/*  */
+
+.footer {
+    background: #111010;
+}
