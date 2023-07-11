@@ -237,6 +237,7 @@ span {
 .sub-btn {
     width: 150px;
     height: 64px;
+    color: #FFF;
     border-radius: 8px;
     background: #E55473;
     border: none;
@@ -245,16 +246,61 @@ span {
 }
 /*  */
 .about-us {
-    background-image: url("../Flower\ Asset/pink-flower.jpg.jpg");
+    background-image: url("../Flower\ Asset/pink-flower.jpg.jpg"),linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    
+    background-blend-mode: overlay;
     width: 1440px;
     height: 449px;
     border-radius: 8px;
     margin: 128px 200px;
     text-align: center;
-   
+}
+
+.about-us-title {
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 128px;
+    padding-top: 50px;
+}
+
+.about-us-description {
+    text-align: center; 
+    
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 10px 200px;
+}
+
+.author-containner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-us-img {
+    margin-bottom: 55px;
+}
+
+.author {
+    padding-bottom: 5px;
+}
+
+.datals-btn {
+    width: 150px;
+    height: 64px;
+    color: #FFF;
+    border-radius: 8px;
+    background: palevioletred;
+    border: none;
+    padding:19px 31px;
+    margin-right: 287px;
 }
 /*  */
 
